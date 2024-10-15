@@ -1,0 +1,31 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+
+.grid {
+  display: grid;
+  max-width: 300px;
+  width: 100%;
+  padding: 20px;
+  gap: 20px;
+  border: 1px solid black;
+}
+
+.cell {
+  background-color: transparent;
+  border: 1px solid black;
+  height: 80px;
+  padding-bottom: 20px;
+}
+
+.cell-activated {
+  background-color: green;
+}
